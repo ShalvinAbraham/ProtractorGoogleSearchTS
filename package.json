@@ -1,0 +1,24 @@
+{
+  "name": "GoogleSearch TypeScript",
+  "version": "1.0.0",
+  "description": "Google Search Protractor Automation using TypeScript",
+  "author": "Shalvin Abraham",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "npm run tsc",
+    "test": "protractor build/conf.js",
+    "debug": "node --inspect-brk ./node_modules/.bin/protractor asyncAwait/conf.js"
+  },
+  "dependencies": {
+    "jasmine": "^2.4.1",
+    "protractor": "^5.4.1",
+    "typescript": "~2.0.0"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.8.8",
+    "@types/jasminewd2": "^2.0.4",
+    "protractor-beautiful-reporter": "^1.2.5",
+    "ts-node": "^3.0.2"
+  }
+}

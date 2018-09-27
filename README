@@ -1,0 +1,15 @@
+==== My Experiments with Protractor and TypeScript =====
+
+Quick Setup:
+Install JDK SE
+Install NodeJS x64 (https://nodejs.org/en/download/current/)
+C:\GoogleSearchTS>npm install -g protractor //Install protractor
+C:\GoogleSearchTS>webdriver-manager update //Install or update selenium drivers
+C:\GoogleSearchTS>npm install protractor-beautiful-reporter --save-dev //Install beautiful-reporter for beautiful reports
+C:\GoogleSearchTS>npm install -g typescript  //Install typescript
+C:\GoogleSearchTS>npm install @types/jasmine --save-dev //Install jasmine types since using jasmine framework
+C:\GoogleSearchTS>npm install @types/jasminewd2 --save-dev //Some more types
+C:\GoogleSearchTS>tsc //transpile typescript files to javascript
+C:\GoogleSearchTS>protractor .\build\pageObjectGoogleSearchSpecConf.js //Run the test cases
+Results will be saved in C:\GoogleSearchTS\results\index.html
+======================================================
